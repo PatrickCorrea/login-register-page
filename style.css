@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.image-background {
+    width: 450px;
+    display: inline-block;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+
+section {
+    display: inline-block;
+    margin: 80px 0 0 280px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.inputs label {
+    font-size: 16px;
+}
+
+.inputs input,
+.inputs button {
+    display: block;
+    margin-bottom: 18px;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    border-radius: 8px;
+    width: 400px;
+    height: 32px;
+    padding: 4px;
+    outline: none;
+    margin: 0 0 8px 0;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+a {
+    margin-left: 220px;
+    text-decoration: none;
+    font-size: 12px;
+    color: blue;
+}
+
+#email-validation {
+    font-size: 12px;
+    color: red;
+    margin: 0 0 12px 0;
+    text-align: left;
+    display: none;
+}
+
+#password-validation {
+    font-size: 12px;
+    color: red;
+    margin: 0 0 12px 0;
+    text-align: left;
+    display: none;
+}
+
+.checkbox-input {
+    cursor: pointer;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    margin: 0 0 2px 3px
+}
+
+.button-login {
+    display: flex;
+    width: 400px;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.185);
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 500;
+    background-color: #45B7B8;
+    cursor: pointer;
+}
+
+.button-login:hover {
+    background-color: #4acdcf;
+    transition: 0.5s;
+}
+
+.button-login:active {
+    transform: translateY(1px);
+}
+
+.line {
+    margin-top: 32px;
+    width: 400px;
+}
+
+.button-social {
+    display: flex;
+    margin-top: 22px;
+    gap: 20px;
+}
+
+.button-social button {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button-social button img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.create-account {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.create-account p,
+.create-account a {
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 70px;
+}
+
+p {
+    text-align: center;
+    width: 200px;
+}
+
+#sing-up {
+    color: #45B7B8;
+    font-size: 15px;
+    margin: 0;
+}
